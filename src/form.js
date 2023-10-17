@@ -28,3 +28,7 @@ form.addEventListener('submit', async (e) => {
     stopLoading()
   }
 })
+
+document.getElementById("clear-icon").addEventListener("click", function() {
+  document.getElementById("url").value = ""
+})
